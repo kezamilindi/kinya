@@ -1,0 +1,19 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore temporary files and directories
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore any other unnecessary files
+.DS_Store
+*.db
