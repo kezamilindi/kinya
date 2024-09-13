@@ -11,8 +11,12 @@ KINYARWANDA TOKENIZER OF 28,000 VOCAB SIZE USING SPACY AND SENTENCEPIECE LIBRARI
 - Sentencepiece    # package
 
 # TRAINING COMMANDS
+```
 - python kinya.py                    # trains the model on data files
 - python case.py                     # turns training data into both cases
+```
 # USAGE COMMANDS FOR USE.PY
+
+```
 - python use.py tokenize "Input Text"   # tokenizes input
 - python use.py show_vocab              # lists vocabulary
